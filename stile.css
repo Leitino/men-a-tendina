@@ -12,10 +12,10 @@ header{
   background-color: black;
 }
 .margine{
+  font-family: 'Indie Flower', cursive;
   height: 100%;
   width: 80%;
   margin: auto;
-  border: 1px solid white;
 }
 .titolo{
   float: left;
@@ -27,7 +27,6 @@ header{
   color: white;
 }
 .menu{
-  transition: 2s;
   cursor: pointer;
   line-height: 40px;
   float: right;
@@ -38,17 +37,19 @@ header{
   list-style: none;
 }
 .menu ul li{
-  padding: 10px;
+  padding: 5px;
 }
 
 .menu ul li a{
   text-decoration: none;
   color: white;
 }
-.menu ul ul{
+.menu .visual{
   display: none;
 }
-.menu ul:hover ul{
-  display: block;
 
+.menu:hover .visual{
+  border: 1px solid white;
+  background-color: rgba(175, 22, 38, 0.5);
+  display: block;
 }
