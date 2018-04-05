@@ -64,7 +64,7 @@ header{
   font-size: 0.6em;
   position: absolute;
   top: 0;
-  right: 195px;
+  right: 100%;
   display: block;
   background-color: rgba(175, 22, 38, 0.5);
 }
