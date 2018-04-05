@@ -6,18 +6,43 @@
 body{
   background-image: url(https://c.wallhere.com/photos/cd/f0/pattern-191257.jpg!d);
 }
-
 header{
-  display: flex;
-  align-items: center;
-  justify-content:space-around;
-  font-family: 'Indie Flower', cursive;
-  color:white;
-  border-bottom:1px solid #efc9ed;
   width: 100%;
-  height: 65px;
+  height: 55px;
   background-color: black;
 }
-header ul ul{
-  display: none;
+.margine{
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  border: 1px solid white;
+}
+.titolo{
+  float: left;
+  line-height: 50px;
+  width: 200px;
+
+}
+.titolo h1{
+  color: white;
+}
+.menu{
+  cursor: pointer;
+  line-height: 40px;
+  float: right;
+  border: 2px solid white;
+}
+.menu ul{
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+.menu ul li{
+  padding: 10px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
 }
