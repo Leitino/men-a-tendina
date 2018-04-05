@@ -28,7 +28,7 @@ header{
 }
 .menu{
   cursor: pointer;
-  line-height: 50px;
+  line-height: 49px;
   float: right;
 }
 .menu ul{
@@ -53,6 +53,21 @@ header{
   background-color: rgba(175, 22, 38, 0.5);
   display: block;
 }
+.menu:hover .no-visual{
+  display: none;
+}
 .visual li:hover{
   background-color: rgba(175, 22, 38, 0.8)
+}
+.visual .sotto-menu:hover .no-visual{
+  line-height: 20px;
+  font-size: 0.6em;
+  position: absolute;
+  top: 0;
+  right: 195px;
+  display: block;
+  background-color: rgba(175, 22, 38, 0.5);
+}
+.sotto-menu{
+  position: relative;
 }
